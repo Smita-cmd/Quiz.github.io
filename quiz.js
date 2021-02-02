@@ -1,5 +1,23 @@
 (function() {
     const myQuestions = [
+         {
+        question: "Which is the smallest bird?",
+        answers: {
+        a: "Swift",
+        b: "Sparrow",
+        c: "Humming Bird"
+        },
+        correctAnswer: "c"
+        },
+        {
+            question: "Who is the current prime minister of India?",
+            answers: {
+            a: "Narendra Modi",
+            b: "Rahul Gandhi ",
+            c: "Manmohan Singh"
+            },
+            correctAnswer: "a"
+            },
     {
     question: "Which sea creature has three hearts? ",
     answers: {
@@ -27,24 +45,7 @@
     },
     correctAnswer: "b"
     },
-    {
-        question: "Which is the smallest bird?",
-        answers: {
-        a: "Swift",
-        b: "Sparrow",
-        c: "Humming Bird"
-        },
-        correctAnswer: "c"
-        },
-        {
-            question: "Who is the current prime minister of India?",
-            answers: {
-            a: "Narendra Modi",
-            b: "Rahul Gandhi ",
-            c: "Manmohan Singh"
-            },
-            correctAnswer: "a"
-            },
+   
     ];
      
     function buildQuiz() {
